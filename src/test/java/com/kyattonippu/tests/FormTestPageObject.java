@@ -2,6 +2,7 @@ package com.kyattonippu.tests;
 import static com.kyattonippu.utils.RandomTestData.*;
 import static io.qameta.allure.Allure.step;
 
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import java.util.HashMap;
 import java.util.Map;
@@ -22,6 +23,7 @@ public class FormTestPageObject extends TestBase {
     }};
 
     @Test
+    @Tag("remote")
     void fullFormTest() {
         step("Open students registration form", () -> {
             registrationPage.openPage()
