@@ -6,5 +6,5 @@
 
 ✅ Cделана сборка в Jenkins
 
-Ссылка на Allure-отчет в Jenkins - https://jenkins.autotests.cloud/job/kyattonippu_hw9_jenkins/1/allure/
+Ссылка на Allure-отчет в Jenkins - https://jenkins.autotests.cloud/job/009_kyattonippu_12jenkins/1/allure/
 
